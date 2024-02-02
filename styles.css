@@ -1,34 +1,50 @@
 body{
     background-color:white;
+    background-image: url('/back\ ground\ .png');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    
 }
 
+
+    
 
 
 button{
-    background-color:silver;
+    background: none;
     font-size: medium;
-    width: 50%;
-    color: black;
-    padding: 15opx;
-    margin: 10px 0px;
+    color: white;
+    padding: 15px;
     border: none;
     cursor:pointer;
+    transition: .5s ease;
     }
-.navbar__menu{
+button:hover{
     background-color: white;
-    padding: 23%;
-    margin: 1%;
+    color: black;
+}
+button:active{
+    background-color: black;
+    color: white;
+}
+.navbar__menu{
+    display: flex;
     border: none;
     cursor: pointer;
+    justify-content: space-between;
+    
+    
+   
+    
+    
 }
 
 li {
-    background-color: gold;
-    padding: 5%;
-    padding-left: 35%;
-    margin: 5%; 
+    list-style-type:none;
 }
 
 a {
-    color: black;
+    color: white;
+    text-decoration: none;   
 }
