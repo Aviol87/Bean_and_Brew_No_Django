@@ -1,12 +1,13 @@
 body{
-    background-color:white;
-    background-image: url('/back\ ground\ .png');
+    background-color:black;
     background-repeat: no-repeat;
     height: 100%;
     background-size: cover;
     
 }
-
+h1{
+    color: aliceblue;
+}
 
     
 
@@ -47,4 +48,8 @@ li {
 a {
     color: white;
     text-decoration: none;   
+}
+
+sign-in-username{
+
 }
