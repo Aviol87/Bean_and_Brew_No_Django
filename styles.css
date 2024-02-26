@@ -50,6 +50,34 @@ a {
     text-decoration: none;   
 }
 
-sign-in-username{
+.sign-in-username{
+    color: aliceblue;
 
+}
+
+/* changes the atributes for Personal-information label at sign in like colour */
+#personal-info1{
+    color: aliceblue;
+}
+
+/* changes the style and look for the labels within the personal information label seperately from the one above  */
+#jerkins{
+    color: aqua;
+}
+
+#Acc-security1{
+    color: aliceblue
+}
+
+label{
+    width: 100px;
+    display: inline-block;
+}
+
+.sign-in5{
+    margin-left: 50%;
+    display: flex;
+}
+.page_title{
+    
 }
