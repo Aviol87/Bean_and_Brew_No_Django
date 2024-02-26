@@ -1,5 +1,5 @@
 body{
-    background-color:black;
+    background-color: aliceblue;
     background-repeat: no-repeat;
     height: 100%;
     background-size: cover;
@@ -22,33 +22,58 @@ button{
     transition: .5s ease;
     }
 button:hover{
-    background-color: white;
+    background-color: white;    
     color: black;
 }
 button:active{
     background-color: black;
     color: white;
+    
 }
 .navbar__menu{
     display: flex;
     border: none;
     cursor: pointer;
     justify-content: space-between;
-    
-    
+    margin: auto;
+
+
    
-    
-    
+}
+
+a{
+  position: relative;
+  text-decoration: none;
+  font-family: "Poppins" ,sans-serif;
+  color: grey;
+  font-size: 18px;
+}
+
+
+a:after{
+    content: "";
+    position: absolute;
+    background-color: blue;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+}
+
+a:hover{
+    color: black
+}
+
+a:hover:after{
+    width: 100%;
 }
 
 li {
     list-style-type:none;
 }
 
-a {
-    color: white;
-    text-decoration: none;   
-}
+  
+
 
 .sign-in-username{
     color: aliceblue;
@@ -57,16 +82,13 @@ a {
 
 /* changes the atributes for Personal-information label at sign in like colour */
 #personal-info1{
-    color: aliceblue;
+    color: black;
 }
 
-/* changes the style and look for the labels within the personal information label seperately from the one above  */
-#jerkins{
-    color: aqua;
-}
+
 
 #Acc-security1{
-    color: aliceblue
+    color: black
 }
 
 label{
@@ -74,10 +96,16 @@ label{
     display: inline-block;
 }
 
-.sign-in5{
-    margin-left: 50%;
+.title_bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.title_bar h1{
+    color: black;
+}
+.sign-in5 {
     display: flex;
+    justify-content: flex-end;
 }
-.page_title{
-    
-}
+
