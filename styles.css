@@ -6,7 +6,9 @@ body{
     
 }
 h1{
-    color: aliceblue;
+    color: black;
+    text-align: center;
+
 }
 
     
@@ -96,14 +98,13 @@ label{
     display: inline-block;
 }
 
-.title_bar {
+.navbar__menu {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
+    display: flex;
 }
 
-.title_bar h1{
-    color: black;
-}
+
 .sign-in5 {
     display: flex;
     justify-content: flex-end;
