@@ -8,7 +8,6 @@ body{
 h1{
     color: black;
     text-align: center;
-
 }
 
     
@@ -76,49 +75,57 @@ li {
 
   
 
-
 .sign-in-username{
     color: aliceblue;
 
 }
 
 /* changes the atributes for Personal-information label at sign in like colour */
-#Acc-security1{
-    color: black
-}
+
 
 label{
     width: 100px;
     display: inline-block;
 }
 
-.navbar__menu {
+.navbar-container{
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    display: flex;
 }
 
 
-.sign-in5 {
+.logandsign-in{
     display: flex;
     justify-content: flex-end;
 }
-.navbar__item{
+.navbar__items{
     display: flex;
     justify-content: flex-start;
     align-items: center;
 
 }
 
-#form_container {
+#Register-container{
     width: 100vw;
     display: flex;
     justify-content: center;
 }
-#Acc-security1{
-    border: 1px solid black;
+#Register-form{
     border-radius: 20px;
     padding: 30px;
     background-color: rgba(163, 176, 219, 0.4);
 }
-
+.logandsign-in #sign-join{
+    border: 20px;
+    background-color: aqua;
+    width: 10vw;
+    border-radius: 30px;
+    margin: 5px;
+}
+.logandsign-in #sign-Log{
+    border: 20px;
+    background-color: aqua;
+    width: 10vw;
+    border-radius: 30px;
+    margin: 5px;
+}
