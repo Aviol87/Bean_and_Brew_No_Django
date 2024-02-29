@@ -83,12 +83,6 @@ li {
 }
 
 /* changes the atributes for Personal-information label at sign in like colour */
-#personal-info1{
-    color: black;
-}
-
-
-
 #Acc-security1{
     color: black
 }
@@ -108,5 +102,23 @@ label{
 .sign-in5 {
     display: flex;
     justify-content: flex-end;
+}
+.navbar__item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+#form_container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+#Acc-security1{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: rgba(163, 176, 219, 0.4);
 }
 
